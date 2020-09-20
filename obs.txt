@@ -1,0 +1,9 @@
+
+
+instalar react redux
+yarn add redux react-redux
+
+yarn add @types/react-redux -D
+
+todos estados
+import { useStore } from 'react-redux';
