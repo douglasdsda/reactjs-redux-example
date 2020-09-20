@@ -7,3 +7,30 @@ yarn add @types/react-redux -D
 
 todos estados
 import { useStore } from 'react-redux';
+
+
+yarn add json-server -D
+
+yarn add axios
+
+simplificar ... quando copia objeto menos veborse
+yarn add immer
+
+dev tool
+yarn add redux-devtools-extension
+
+
+
+obs:
+sem draft
+  // sem immer
+        // return {
+        //   ...state,
+        //   items: [
+        //     ...state.items,
+        //     {
+        //       product,
+        //       quantity: 1,
+        //     }
+        //   ]
+        // };
