@@ -19,7 +19,7 @@ yarn add immer
 dev tool
 yarn add redux-devtools-extension
 
-
+yarn add redux-saga
 
 obs:
 sem draft
