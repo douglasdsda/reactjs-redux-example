@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { IState } from '../store';
-import { ICardItem, ICartState } from '../store/modules/cart/types';
+import { ICardItem } from '../store/modules/cart/types';
 
 const Cart: React.FC = () => {
 

@@ -21,6 +21,10 @@ yarn add redux-devtools-extension
 
 yarn add redux-saga
 
+
+yarn add styled-components @types/styled-components -D
+
+
 obs:
 sem draft
   // sem immer

@@ -1,15 +1,21 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+
  import { Provider } from 'react-redux';
-import Cart from './components/Cart';
-import Catalog from './components/Catalog';
+ import Routes from './routes';
+ 
 import store from './store';
+import GlobalStyle from './styles/global';
 
 function App() {
   return (
+    <Router>
     <Provider store={store} >
-       <Catalog />
-       <Cart />
+      <Routes />
+  
+       <GlobalStyle />
     </Provider>
+    </Router>
   );
 }
 
