@@ -24,6 +24,8 @@ yarn add redux-saga
 
 yarn add styled-components @types/styled-components -D
 
+npm install @material-ui/core
+yarn add @material-ui/core
 
 obs:
 sem draft
